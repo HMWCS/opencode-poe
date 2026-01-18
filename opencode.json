@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "poe": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Poe",
+      "options": {
+        "baseURL": "https://api.poe.com/v1",
+        "apiKey": "{env:AGENT_API_KEY}"
+      },
+      "models": {
+        "claude-sonnet-4.5": {
+          "name": "Claude Sonnet 4.5 (Poe)"
+        }
+      }
+    }
+  },
+  "model": "poe/claude-sonnet-4.5"
+}
