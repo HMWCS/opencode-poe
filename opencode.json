@@ -10,7 +10,21 @@
       },
       "models": {
         "claude-sonnet-4.5": {
-          "name": "Claude Sonnet 4.5 (Poe)"
+          "name": "Claude Sonnet 4.5 (Poe)",
+          "options": {
+            "extra_body": {
+              "thinking_budget": 12288,
+              "web_search": true
+            }
+          }
+        },
+        "glm-4.7": {
+          "name": "GLM-4.7 (Poe)",
+          "options": {
+            "extra_body": {
+              "enable_thinking": true
+            }
+          }
         }
       }
     }
