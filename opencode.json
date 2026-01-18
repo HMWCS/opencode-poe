@@ -18,11 +18,29 @@
             }
           }
         },
-        "glm-4.7": {
-          "name": "GLM-4.7 (Poe)",
+        "claude-opus-4.5": {
+          "name": "Claude Opus 4.5 (Poe)",
           "options": {
             "extra_body": {
-              "enable_thinking": true
+              "thinking_budget": 12288,
+              "web_search": true
+            }
+          }
+        },
+        "gemini-3-pro": {
+          "name": "Gemini 3 Pro (Poe)",
+          "options": {
+            "extra_body": {
+              "thinking_level": "high",
+              "web_search": true
+            }
+          }
+        },
+        "gpt-5.2-codex": {
+          "name": "GPT-5.2 Codex (Poe)",
+          "options": {
+            "extra_body": {
+              "reasoning_effort": "high"
             }
           }
         }
