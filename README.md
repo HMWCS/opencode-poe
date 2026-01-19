@@ -14,7 +14,7 @@ Here are several models that work well with OpenCode, in no particular order (no
 ## Setup
 
 1) Install (pnpm global)  
-- `pnpm add -g opencode`
+- `pnpm add -g opencode-ai`
 
 2) Set key  
 - macOS: add `export AGENT_API_KEY="YOUR_POE_KEY"` to `~/.zshrc`  
