@@ -28,4 +28,6 @@ Here are several models that work well with OpenCode, in no particular order (no
 - `opencode`  
 - `/models` to switch models
 
-Reference: https://opencode.ai/docs/models/
+## References
+- [OpenCode Models Documentation](https://opencode.ai/docs/models/)
+- [Poe OpenAI-Compatible API](https://creator.poe.com/docs/external-applications/openai-compatible-api)
