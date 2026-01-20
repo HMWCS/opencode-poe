@@ -20,7 +20,6 @@
         },
         "gemini-3-pro": {
           "name": "Gemini 3 Pro (Poe)",
-          "use_models_dev": "google/gemini-3-pro",
           "cost": { "input": 2, "output": 12 },
           "options": { "extra_body": { "thinking_level": "high", "web_search": true } },
           "variants": { "low": { "extra_body": { "thinking_level": "low", "web_search": true } } }
@@ -45,6 +44,10 @@
           "cost": { "input": 0.3, "output": 1.2 },
           "options": { "extra_body": { "enable_thinking": true } },
           "variants": { "fast": { "extra_body": { "enable_thinking": false } } }
+        },
+        "gpt-oss-120b": {
+          "name": "GPT-OSS 120B (Poe)",
+          "cost": { "input": 0.35, "output": 0.75 }
         }
       }
     }
