@@ -4,7 +4,10 @@
     "poe": {
       "npm": "@ai-sdk/openai-compatible",
       "name": "Poe",
-      "options": { "baseURL": "https://api.poe.com/v1", "apiKey": "{env:AGENT_API_KEY}" },
+      "options": {
+        "baseURL": "https://api.poe.com/v1",
+        "apiKey": "{env:AGENT_API_KEY}"
+      },
       "models": {
         "claude-sonnet-4.5": {
           "name": "Claude Sonnet 4.5 (Poe)",
@@ -45,6 +48,7 @@
           "options": { "extra_body": { "enable_thinking": true } },
           "variants": { "fast": { "extra_body": { "enable_thinking": false } } }
         }
+      }
     }
   },
   "model": "poe/claude-sonnet-4.5"
