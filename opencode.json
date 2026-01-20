@@ -44,12 +44,7 @@
           "cost": { "input": 0.3, "output": 1.2 },
           "options": { "extra_body": { "enable_thinking": true } },
           "variants": { "fast": { "extra_body": { "enable_thinking": false } } }
-        },
-        "gpt-oss-120b": {
-          "name": "GPT-OSS 120B (Poe)",
-          "cost": { "input": 0.35, "output": 0.75 }
         }
-      }
     }
   },
   "model": "poe/claude-sonnet-4.5"
